@@ -21,10 +21,10 @@
         if($hour >= 18){
             $greetString = "Goede avond";
             $imageURL = "evening.png";
-        } else if($hour >= 12){
+        } elseif($hour >= 12){
             $greetString = "Goede middag";
             $imageURL = "afternoon.png";
-        } else if($hour >= 6){
+        } elseif($hour >= 6){
             $greetString = "Goede morgen";
             $imageURL = "morning.png";
         } else {
